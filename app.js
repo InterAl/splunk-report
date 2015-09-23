@@ -1,7 +1,7 @@
 ﻿var errorReportGen = require('./event-count-report/errorReportGen.js');
 
 var fromDate = new Date(process.argv[3]);
-var toDate = new Date(process.argv[4]);
+var toDate = new Date(process.argv[4] || process.argv[3]);
 
 toDate.setHours(23);
 toDate.setMinutes(59);
