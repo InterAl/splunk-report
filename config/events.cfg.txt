@@ -1,0 +1,33 @@
+There is no row at position 0
+Failed to parse Barclay Refusal Reason 'Refused'
+STS AUTH PROVIDER: Authentication Failed
+UnionPay ProcessDeposit operation can not be processed, reason : Trivia.Common.Messages.Exceptions.PaymentProviderException: UnionPay PaymentService : Unable to reach remote server in Inatec
+Exception in UnionPay PaymentService : Process Bytes to be written to the stream exceed the Content-Length bytes size specified.
+PowerCash Notifications DepositID
+Empty parameters recieved on PayPal IPN!
+IsEligibleForBonus : Failed to validate AddBonusRequestData request.
+received status 'Decline' by Neteller API, Error Code '5269' , Error Description 'Entity not found''
+AuthenticateGuidToken not valid
+AuthenticateGuidToken validation failed for AuthGuid
+Exception in ShouldPassAsicSuitabilityTest
+PayPal IPN: Transaction not Found
+GetUserLastPayment - Failed to retrieve Depot '0' (Funding id '1')
+Failed to find depot for CC type
+Exception in BonusBusinessLogic : SetDepositBonusError
+Error when de-serializing
+The service '/eToro.Billing.Risk.Service.svc' does not exist
+Unknown web method GetVerifyBeforeDepositCountries
+Payment status set to technical PayPal
+Exception in BaseDepositController ProcessDeposit ClosePaymentRequest, Cid
+Exception in BaseDepositController ProcessDeposit ProcessPaymentRequest, Cid
+TrackMobileDeposit connect failed: The operation has timed out
+Withdrawal status is already Processed. Cannot process again.
+Failed to retrieve Depot '21'
+Provider response: 'The Buyer cannot pay with PayPal for this Transaction.'
+ServiceStack.ServiceClient.Web.WebServiceException: InternalServerError
+Reason: request does not exists or have illegal status.
+MoneyBookers Re-login.
+Re-login during Deposit
+Payment status set to technical
+AuthenticateGuidToken validation  failed
+ErrorCode: '11607'. Provider response: 'A successful transaction has already been completed for this token.'
