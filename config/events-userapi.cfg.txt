@@ -1,0 +1,12 @@
+Consuming from exchange 'UserAPI' and routing key '*.updated' failed.
+Failed handling message. GCID: '0'
+Exception at URI:'http://10.210.100.60/api/v1/users/publicAggregatedInfo?cidList=
+System.ArgumentNullException: Value cannot be null.
+Exception at URI:'http://10.210.100.60/api/v1/users/0/asicSuitabilityTest/shouldPass' on service AsicSuitabilityShouldPassRequest : {"gcid":0}}
+avatars' on service AvatarPostRequest
+Exception at URI:'http://lon-uapi-b-vip/api/v1/users/publicAggregatedInfo?cidList=%5B0%5D
+Failed sending an email to the user's referer.
+Input validation failed: Invalid input: GlobalAddress Building
+Failed to acquire data from: 'GbgEvProvider' evProvider
+Failed handling message. GCID:
+System.ServiceModel.FaultException`1[UserAPI.Infrastructure.Providers.GbgWebService.ID3gException]: Input validation failed: Invalid input: GlobalCanadaSocialInsuranceNumber

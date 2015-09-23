@@ -2,7 +2,7 @@
 var cfg = require('../config');
 
 function buildSearchString() {
-    var searchSeed = "sourcetype=" + cfg.session.sourcetype + " \"" + cfg.session.errorIdentification + "\"";
+    var searchSeed = "sourcetype=" + cfg.session.sourcetype + " " + cfg.session.errorIdentification;
     
     return cfg.events.reduce(function (p, c) {
         return p + " NOT \"" + c + "\"";
