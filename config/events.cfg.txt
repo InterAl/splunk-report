@@ -31,3 +31,6 @@ Re-login during Deposit
 Payment status set to technical
 AuthenticateGuidToken validation  failed
 ErrorCode: '11607'. Provider response: 'A successful transaction has already been completed for this token.'
+Trivia.Common.Messages.Exceptions.PaymentProviderException: Direct debit error : Unable to reach remote server in Inatec
+Exception in DirectDebitPaymentService: CreatePurchaseResponseThe remote server returned an error: (504) Gateway Timeout.
+BasePaymentService : SendRequest - Error when sending request: System.Net.WebException: The remote server returned an error: (504) Gateway Timeout.
