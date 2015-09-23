@@ -9,8 +9,10 @@ function parseConfigFile(cfg) {
     return JSON.parse(cfg);
 }
 
-var eventsData = configFileReader("events.cfg.txt");
-var configData = configFileReader("config.json");
+var srcCfgDir = process.argv[2];
+
+var eventsData = configFileReader(srcCfgDir + "/events.cfg.txt");
+var configData = configFileReader(srcCfgDir + "/config.json");
 
 var events = parseEventsFile(eventsData);
 var cfg = parseConfigFile(configData);

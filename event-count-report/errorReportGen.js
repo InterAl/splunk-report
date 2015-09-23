@@ -22,12 +22,15 @@ function getDate(date) {
 
 function createTextualCountReport(countReport, fromDate, toDate, sourcetype) {
     var seed = "Error report for " + sourcetype + " for " + getDate(fromDate) + " - " + getDate(toDate) + "\r\n\r\n";
-
+    
     var sortable = Object.keys(countReport).filter(function(k) {
         return countReport[k] > 0;
     }).map(function (k) {
         return [k, countReport[k]];
     });
+
+    var sum = sortable.reduce(function(p, c) { return p + c[1]; }, 0);
+    seed += "A total of " + sum + " errors have occurred.\r\n\r\n";
 
     sortable.sort(function(a, b) { return b[1] - a[1]; });
 
