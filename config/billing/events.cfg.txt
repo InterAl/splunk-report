@@ -34,3 +34,5 @@ ErrorCode: '11607'. Provider response: 'A successful transaction has already bee
 Trivia.Common.Messages.Exceptions.PaymentProviderException: Direct debit error : Unable to reach remote server in Inatec
 Exception in DirectDebitPaymentService: CreatePurchaseResponseThe remote server returned an error: (504) Gateway Timeout.
 BasePaymentService : SendRequest - Error when sending request: System.Net.WebException: The remote server returned an error: (504) Gateway Timeout.
+Exception in FinanceDataAccess : FindWithdrawToFundingId for DepositID
+Failed sending deposit attempt event to Mixpanel.
