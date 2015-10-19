@@ -36,3 +36,7 @@ Exception in DirectDebitPaymentService: CreatePurchaseResponseThe remote server 
 BasePaymentService : SendRequest - Error when sending request: System.Net.WebException: The remote server returned an error: (504) Gateway Timeout.
 Exception in FinanceDataAccess : FindWithdrawToFundingId for DepositID
 Failed sending deposit attempt event to Mixpanel.
+System.Data.SqlClient.SqlException (0x80131904): SHUTDOWN is in progress.
+Response rows not found for PayPal
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+System.NullReferenceException: Object reference not set to an instance of an object.
