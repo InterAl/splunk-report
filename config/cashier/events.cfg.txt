@@ -1,0 +1,20 @@
+Failed extracting user deposit count from session/application objects. FundingType:
+Failed to Report LogOff from Cashier (Session expired)
+Server was unable to process request. ---> ServiceStack.Common.Web.HttpError: Session Expired
+STS AUTH PROVIDER: Authentication Failed
+System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+System.Threading.ThreadAbortException: Thread was being aborted.
+System.NullReferenceException: Object reference not set to an instance of an object.   at webmoneyPage.SubmitPostBack(PaymentActionType paymentType)
+Cashier Token validation is failed for token
+Renew Cashier Token is failed for token
+A potentially dangerous Request.Cookies value was detected 
+Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 23.100.50.51:80
+Could not check for blocked country / set currency reason: 'System.Threading.ThreadAbortException: Thread was being aborted.
+GetAvatar operation failed reason :'System.InvalidOperationException: Sequence contains more than one element
+has no STS tokens user advised relogin..
+App. Unhandled Error : System.Net.WebException: The operation has timed out
+App. Resources Error 404 : The file '/Cashier/credit.aspx' does not exist.
+Deposit Amount 'Failed by ErrorType: error fetching user deposit details , failure reason: error fetching user deposit details', KYC Action 'undefined' start process
+ERROR paypalPage [(null)] System.NullReferenceException: Object reference not set to an instance of an object.
+System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.Data.SqlClient.SqlException: Failed to update database "etoro" because the database is read-only.
