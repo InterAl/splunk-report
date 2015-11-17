@@ -10,3 +10,7 @@ Input validation failed: Invalid input: GlobalAddress Building
 Failed to acquire data from: 'GbgEvProvider' evProvider
 Failed handling message. GCID:
 System.ServiceModel.FaultException`1[UserAPI.Infrastructure.Providers.GbgWebService.ID3gException]: Input validation failed: Invalid input: GlobalCanadaSocialInsuranceNumber
+System.ArgumentException: Question cannot be null.
+The target database, 'UserApiDB', is participating in an availability group and is currently not accessible for queries. Either data movement is suspended or the availability replica is not enabled for read access. To allow read-only access to this and other databases in the availability group, enable read access to one or more secondary availability replicas in the group.  For more information, see the ALTER AVAILABILITY GROUP statement in SQL Server Books Online.
+Cannot open database "UserApiDB" requested by the login. The login failed.
+Exception at URI:'http://lon-uapi-b-vip/api/v1/users/0/aggregatedInfo' on service AggregatedInfoGetRequest : {"gcid":0}}
