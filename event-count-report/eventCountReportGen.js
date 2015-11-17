@@ -3,7 +3,7 @@ var cfg = require('../config');
 var Q = require("q");
 
 function buildEventCountSearchString(sourcetype, event) {
-    return "sourcetype=" + sourcetype + " \"" + event + "\"";
+    return "sourcetype=" + sourcetype + " " + cfg.session.errorIdentification  + " \"" + event + "\"";
 }
 
 function getEventsCount(fromDate, toDate) {
