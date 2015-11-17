@@ -43,8 +43,12 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 Exception in DirectDebitPaymentService: CreatePurchaseResponseThe operation has timed out
 BasePaymentService : SendRequest - Error when sending request: System.Net.WebException: The operation has timed out
 System.Data.SqlClient.SqlException (0x80131904): The target database, 'etoro', is participating in an availability group and is currently not accessible for queries. Either data movement is suspended or the availability replica is not enabled for read access. To allow read-only access to this and other databases in the availability group, enable read access to one or more secondary availability replicas in the group.  For more information, see the ALTER AVAILABILITY GROUP statement in SQL Server Books Online.
+<<<<<<< HEAD
 TrackMobileDeposit connect failed: Unable to connect to the remote server
 ServiceStack.ServiceClient.Web.WebServiceException: Gateway Time-out
 System.Web.HttpException (0x80004005): Request format is unrecognized.
 Cannot insert the value NULL into column 'DepositID', table 'etoro.History.DepositAction'; column does not allow nulls. INSERT fails.
 System.Data.SqlClient.SqlException (0x80131904): A .NET Framework error occurred during execution of user-defined routine or aggregate "ParseXML"
+=======
+Giropay Error Message : Communication failure
+>>>>>>> 919cd71d1538d950c3db1d8c0f3ec1663873d0c0
